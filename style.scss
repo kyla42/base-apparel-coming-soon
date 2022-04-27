@@ -49,7 +49,7 @@ p {
     position: relative;
     max-width: 144rem;
     height: 80rem;
-    margin: auto;
+    margin: 6.5rem auto;
     background: url(./images/bg-pattern-desktop.svg);
     background-position: left;
     background-size: initial;
@@ -184,7 +184,7 @@ p {
     .container {
         max-width: 37.5rem;
         max-height: 80rem;
-        margin: auto;
+        margin: 6.5rem auto;
         background: none;
         display: grid;
         grid-template-columns: 1fr;
