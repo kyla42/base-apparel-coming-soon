@@ -25,7 +25,6 @@ body {
     font-weight: 400;
     color: var(--Desaturated_Red);
     overflow: hidden;
-    background-color: black;
 }
 
 h1 {
@@ -39,7 +38,7 @@ h1 {
     position: relative;
     max-width: 144rem;
     height: 80rem;
-    margin: 6.6rem auto;
+    margin: auto;
     background: url(./images/bg-pattern-desktop.svg);
     background-position: left;
     background-size: initial;
