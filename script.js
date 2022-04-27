@@ -3,8 +3,6 @@ const email = document.getElementById("email");
 const error = document.getElementById("error");
 const msg = document.getElementById("msg");
 
-const inputArea = document.getElementById("inputArea");
-
 btn.addEventListener("click", function () {
     if (email.value.includes("@") && email.value.includes(".")) {
         email.value = "";
