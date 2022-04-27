@@ -1,19 +1,21 @@
 const btn = document.getElementById("btn");
-const email = document.getElementById("email");
-const error = document.getElementById("error");
-const msg = document.getElementById("msg");
+const errMsg = [
+    document.getElementById("email"),
+    document.getElementById("error"),
+    document.getElementById("msg")
+]
 
 btn.addEventListener("click", function () {
     if (email.value.includes("@") && email.value.includes(".")) {
-        email.value = "";
-        msg.classList.remove("invalid");
-        email.classList.remove("invalid");
-        error.classList.remove("invalid");
         window.location.href = "./submitted.html"
+        for (let i = 0; i < errMsg.length; i++) {
+            errMsg[i].classList.remove("invalid");
+        }
+        email.value = "";
     }
     else {
-        msg.classList.add("invalid");
-        email.classList.add("invalid");
-        error.classList.add("invalid");
+        for (let i = 0; i < errMsg.length; i++) {
+            errMsg[i].classList.add("invalid");
+        }
     }
 });
