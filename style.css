@@ -117,7 +117,7 @@ p {
 }
 
 .info_area .input_area #email {
-  width: 36.5rem;
+  width: 39.5rem;
   height: 5.6rem;
   padding: 0.3rem 0 0 3.1rem;
   font-size: 1.6rem;
@@ -161,8 +161,8 @@ p {
   border: none;
   border-radius: 5rem;
   background: var(--Gradient2);
-  -webkit-box-shadow: 0 1.6rem 1rem 0 rgba(206, 151, 151, 0.2);
-          box-shadow: 0 1.6rem 1rem 0 rgba(206, 151, 151, 0.2);
+  -webkit-box-shadow: 0 2rem 1rem 0 rgba(206, 151, 151, 0.2);
+          box-shadow: 0 2rem 1rem 0 rgba(206, 151, 151, 0.2);
 }
 
 .info_area .input_area button:hover {
@@ -194,8 +194,8 @@ p {
   display: none;
   width: 2.4rem;
   height: 2.4rem;
-  -webkit-transform: translate(-20rem, -4rem);
-          transform: translate(-20rem, -4rem);
+  -webkit-transform: translate(-18rem, -4rem);
+          transform: translate(-18rem, -4rem);
 }
 
 .msg_area #error.invalid {
@@ -267,7 +267,7 @@ p {
     padding: 1.6rem 0 0 3rem;
   }
   .info_area .input_area #email {
-    width: 28rem;
+    width: 30rem;
     height: 4.8rem;
     padding: 0 0 0.1rem 2.2rem;
     border-radius: 2.4rem 0 0 2.4rem;
@@ -299,8 +299,8 @@ p {
     font-weight: 400;
     padding: 0.5rem 0;
     margin: 0;
-    -webkit-transform: translate(-4rem);
-            transform: translate(-4rem);
+    -webkit-transform: translate(-5rem);
+            transform: translate(-5rem);
   }
   .msg_area #msg.invalid {
     display: -webkit-box;
@@ -311,8 +311,8 @@ p {
     display: none;
     width: 2.4rem;
     height: 2.4rem;
-    -webkit-transform: translate(-2rem, -3.7rem);
-            transform: translate(-2rem, -3.7rem);
+    -webkit-transform: translate(-1rem, -3.7rem);
+            transform: translate(-1rem, -3.7rem);
   }
   .msg_area #error.invalid {
     display: block;
