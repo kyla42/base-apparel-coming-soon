@@ -1,5 +1,5 @@
 const btn = document.getElementById("btn");
-const errMsg = [
+const err = [
     document.getElementById("email"),
     document.getElementById("error"),
     document.getElementById("msg")
@@ -8,14 +8,14 @@ const errMsg = [
 btn.addEventListener("click", function () {
     if (email.value.includes("@") && email.value.includes(".")) {
         window.location.href = "./submitted.html"
-        for (let i = 0; i < errMsg.length; i++) {
-            errMsg[i].classList.remove("invalid");
+        for (let i = 0; i < err.length; i++) {
+            err[i].classList.remove("invalid");
         }
         email.value = "";
     }
     else {
-        for (let i = 0; i < errMsg.length; i++) {
-            errMsg[i].classList.add("invalid");
+        for (let i = 0; i < err.length; i++) {
+            err[i].classList.add("invalid");
         }
     }
 });
