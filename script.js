@@ -11,7 +11,7 @@ btn.addEventListener("click", function () {
         msg.classList.remove("invalid");
         email.classList.remove("invalid");
         error.classList.remove("invalid");
-        window.location.href = "https://kyla42.github.io/base-apparel-coming-soon/submitted.html"
+        window.location.href = "./submitted.html"
     }
     else {
         msg.classList.add("invalid");
