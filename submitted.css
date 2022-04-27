@@ -25,6 +25,9 @@ body {
   font-weight: 400;
   color: var(--Desaturated_Red);
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 h1 {
@@ -38,7 +41,7 @@ h1 {
   position: relative;
   max-width: 144rem;
   height: 80rem;
-  margin: 6.5rem auto;
+  margin: auto;
   background: url(./images/bg-pattern-desktop.svg);
   background-position: left;
   background-size: initial;
@@ -108,7 +111,7 @@ h1 {
   .container {
     max-width: 37.5rem;
     max-height: 80rem;
-    margin: 6.5rem ssssauto;
+    margin: auto;
     background: none;
     display: -ms-grid;
     display: grid;
