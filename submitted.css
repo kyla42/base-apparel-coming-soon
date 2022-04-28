@@ -54,6 +54,7 @@ h1 {
       grid-template-areas: ". logo . photo" ". info . photo";
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  overflow-x: hidden;
 }
 
 .container::after {

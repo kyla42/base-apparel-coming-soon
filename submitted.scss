@@ -50,6 +50,7 @@ h1 {
         ". logo . photo"
         ". info . photo";
     transition: all .3s ease;
+    overflow-x: hidden;
 
     &::after {
         content: "";
