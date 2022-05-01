@@ -21,9 +21,13 @@ html {
 }
 
 body {
+    height: 100vh;
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--Desaturated_Red);
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -48,7 +52,7 @@ p {
     position: relative;
     max-width: 144rem;
     height: 80rem;
-    margin: auto;
+    margin: 0 auto;
     background: url(./images/bg-pattern-desktop.svg);
     background-position: left;
     background-size: initial;

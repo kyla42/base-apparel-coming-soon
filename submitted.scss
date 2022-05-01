@@ -21,10 +21,12 @@ html {
 }
 
 body {
+    height: 100vh;
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--Desaturated_Red);
     display: flex;
+    align-items: center;
     overflow-x: hidden;
 }
 
